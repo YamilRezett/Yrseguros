@@ -7,6 +7,16 @@ body{
     background-image: url("/multimedia/imagen/fondo-celeste.png");
 }
 
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: transparent;
+    font-size: 50px;
+    background-image: url("/multimedia/imagen/fondo-azul.png");
+    background-size: cover;
+    -webkit-background-clip: text;
+    -webkit-text-stroke: 1.5px rgb(0, 0, 0);
+}
+
 img{
     height: 200px;
 	width: 200px;
