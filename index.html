@@ -23,34 +23,72 @@
         <div class="bubble x10"></div>
     </div>
 
-    <div class="parent">
-      <div class="div1">
-        <header class="logo">
-          <a href="/interno/nosotros.html"><img class="log" src="/multimedia/imagen/logo.png" alt=""></a>
-          <h1>¡Contrata tu poliza digital de una forma muy simple!</h1>
-        </header>
-      </div>
-
-<div class="div2"> 
+<div class="parent">
+  <section class="div1">
+    <header class="logo">
+     <a href="/interno/nosotros.html"><img class="log" src="/multimedia/imagen/logo.png" alt=""></a>
+      <h1 class="titulo">¡Contrata tu poliza digital de una forma muy simple!</h1>
+   </header>
+  </section>
+   
+<section class="div2">
   <nav class="navegador">
     <ul class="navegador1">
-    <a href="/interno/produc.html">Productos</a>
+      <div class="form-row">
+        <button type="submit"><a href="/interno/produc.html">Productos</a></button>
+    </div>
     </ul>
     <ul class="navegador2">
-      <a href="/interno/contactos.html">Contactos</a>
-    </ul>    
-    <ul class="navegador3">
-      <a href="/interno/consultas.html">Consultas</a>
-    </ul>        
+      <div class="form-row">
+        <button type="submit"><a href="/interno/contactos.html">Contactos</a></button>
+    </div>
+    </ul>   
   </nav> 
-</div>
+</section>
+  
+<section class="div3">
+  <iframe class="tube" width="560" height="315" src="https://www.youtube.com/embed/hJDDj7h3_NA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
+  <p class="parrafo">
+    Desde la Superintendencia de Seguros la Nación (#SSN) habilitamos la Póliza Digital. 
+    A partir de la Resolución SSN Nº 219/2018, se podrá circular por las rutas y calles argentinas con el comprobante del seguro de manera digital.
+    Circular con tu Seguro, ya sea en formato papel o digital, es Obligatorio. Con la Póliza digital, ahora es más fácil.  
+  </p>
+</section>
 
-<div class="div3">
-  <footer class="final">
+<footer class="div4">
+  <form action="/php/form.php" method="post" class="speaker-form">
 
-  </footer> 
-</div>
+    <section class="speaker-form-header"> 
+    <h1>Subscribete</h1>
+    </section>
+    
+    <div class="form-row">
+        <label for="full-name">Name</label>
+        <input type="text" id="full-name" placeholder="Ej:nombre" name="nombre">
+    </div>
 
+    <div class="form-row">
+        <label for="email">Email</label>
+        <input type="email" id="email" placeholder="Ej:nombre@gmail.com" name="email" required>
+        <!--REQUIRED es para que en la pagina si te olvidas de completar algo te lo marca-->
+    </div>
+
+    <div class="form-row">
+        <label for="full-name">Celular</label>
+        <input type="text" id="full-name" placeholder="Ej:343-000000" name="nombre">
+    </div>
+
+    <div class="form-row">
+        <label for="abstract">Sugerencias</label>
+        <textarea name="textarea" id="abstract"></textarea>
+    </div>
+
+    <div class="form-row">
+        <button type="submit">Enviar</button>
+    </div>
+ </form>
+  </footer>
+   </div>
    
 </body>
 </html>
